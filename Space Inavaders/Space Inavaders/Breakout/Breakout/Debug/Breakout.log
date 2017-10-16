@@ -1,0 +1,7 @@
+﻿  Breakout.cpp
+c:\users\user\desktop\space inavaders\space inavaders\breakout\breakout\breakout.cpp(35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\user\desktop\space inavaders\space inavaders\breakout\breakout\breakout.cpp(104): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\space inavaders\space inavaders\breakout\breakout\breakout.cpp(141): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\desktop\space inavaders\space inavaders\breakout\breakout\breakout.cpp(147): warning C4018: '<': signed/unsigned mismatch
+  Breakout.vcxproj -> C:\Users\user\Desktop\Space Inavaders\Space Inavaders\Breakout\Debug\Breakout.exe
+  Breakout.vcxproj -> C:\Users\user\Desktop\Space Inavaders\Space Inavaders\Breakout\Debug\Breakout.pdb (Full PDB)

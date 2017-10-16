@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>b29aa495-06fe-4743-ad71-c20a89de7722</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>309109f5-6152-4196-8f26-c3b00be4f6a0</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{1177d2c7-c4fe-4885-a202-3450c31955a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionBox.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundBlock.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="BorderBlock.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Puck.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardBlock.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="TextWriter.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ToughBlock.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Breakout.h" />
+    <ClInclude Include="FileReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionBox.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundBlock.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="BorderBlock.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Puck.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardBlock.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="TextWriter.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ToughBlock.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Breakout.cpp" />
+    <ClCompile Include="FileReader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Background.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Blocks.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Border.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Disc.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Spaceship.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SpaceBullet.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Invader1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Invader2.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Assets\italic.spritefont">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\levelOne.csv">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>
